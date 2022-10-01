@@ -66,11 +66,6 @@ export default {
             },
         },
         {
-            name: 'id',
-            title: 'ID',
-            type: 'number',
-        },
-        {
             name: 'description',
             title: 'Description',
             type: 'string',

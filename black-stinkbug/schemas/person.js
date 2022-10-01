@@ -19,11 +19,6 @@ export default {
             },
         },
         {
-            name: 'id',
-            title: 'ID',
-            type: 'number',
-        },
-        {
             name: 'image',
             title: 'Image',
             type: 'image',
