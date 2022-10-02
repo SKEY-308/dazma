@@ -60,12 +60,17 @@ a {
 }
 
 .button {
+  cursor: pointer;
   width: 90%;
   padding: 15px;
-  border-radius: 10px;
+  border-radius: 5px;
   color: rgb(255,255,255);
   text-align: center;
   background: linear-gradient(135deg, rgb(255,56,92) 20%, rgb(189,30,89));
+}
+.button:hover{
+  transform: scale(1.1,1.1);
+  transition: transform 1.5s ease;
 }
 
 .images-section {
