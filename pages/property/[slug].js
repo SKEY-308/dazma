@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from "next/link"
-import { Image, Review } from '../../components';
+import { Image, Review, Map } from '../../components';
+import 'mapbox-gl/dist/mapbox-gl.css';
 
 import { client } from '../../lib/client'
 import { isMultiple } from '../../lib/utils'
@@ -95,7 +96,7 @@ const Property = ({ properties }) => {
             <hr />
 
             <h2>Location</h2>
-            {/*<Map location={ location }></Map>*/ }
+            <Map location={ location } />
         </div>
     )
 }
