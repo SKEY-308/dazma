@@ -11,6 +11,7 @@
   "dependencies": {
     "@sanity/client": "^3.4.1",
     "@sanity/image-url": "^1.0.1",
+    "mapbox-gl": "^2.10.0",
     "next": "12.3.1",
     "next-sanity-image": "^4.1.0",
     "react": "18.2.0",

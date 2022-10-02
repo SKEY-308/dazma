@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from "next/link"
-import { Image } from '../../components';
+import { Image, Review } from '../../components';
 
 import { client } from '../../lib/client'
 import { isMultiple } from '../../lib/utils'
@@ -87,10 +87,10 @@ const Property = ({ properties }) => {
                 { reviewAmount } review{ isMultiple(reviewAmount) }
             </h2>
 
-            {/*{
-                reviewAmount > 0 &&
-                reviews.map((review) => <Review key={ review._key } review={ review } />)
-            }*/}
+            { reviewAmount > 0 && reviews.map((review) =>
+                <Review key={ review._key } review={ review } />
+            )
+            }
 
             <hr />
 
